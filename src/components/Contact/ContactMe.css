@@ -1,0 +1,98 @@
+/* styles.css (or a separate CSS file for the contact page) */
+
+/* Contact Section Container */
+.contact {
+  background-color: #f4f4f4;
+  padding: 60px 0;
+  text-align: center;
+}
+
+/* Contact Content Container */
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Contact Title */
+.contact h2 {
+  font-size: 28px;
+  margin: 0;
+}
+
+/* Contact Description */
+.contact p {
+  font-size: 18px;
+  margin: 20px 0;
+}
+
+/* Contact Form */
+.contact-form {
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+/* Form Group (Name, Email, Message) */
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  font-weight: bold;
+}
+
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.form-group textarea {
+  resize: vertical;
+}
+
+/* Submit Button */
+.submit-button {
+  background-color: #333;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 18px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.submit-button:hover {
+  background-color: #555;
+}
+
+/* Contact Social Media Section */
+.contact-social {
+  margin-top: 40px;
+}
+
+.contact-social p {
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+.social-icons a {
+  font-size: 24px;
+  margin-right: 15px;
+  color: #333;
+  text-decoration: none;
+}
+
+/* Media Query for Smaller Screens */
+@media (max-width: 768px) {
+  .contact-form {
+    max-width: 100%;
+  }
+}
