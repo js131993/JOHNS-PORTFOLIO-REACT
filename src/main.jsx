@@ -10,7 +10,6 @@ import Contact from './components/Contact/ContactMe.jsx';
 import Resume from './components/Resume/Resume.jsx';
 import Portfolio from './components/Portfolio/Portfolio.jsx';
 
-// Define the accessible routes, and which components respond to which URL
 const router = createBrowserRouter([
   {
     path: '/',
