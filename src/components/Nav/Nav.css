@@ -1,26 +1,24 @@
-/* navigation.css (or include these styles in your existing styles.css) */
 
-/* Navigation Container */
 .navigation {
   background-color: #911818;
   padding: 20px 0;
   text-align: center;
 }
 
-/* Navigation Links List */
+
 .nav-links {
   list-style: none;
   padding: 0;
   margin: 0;
 }
 
-/* Navigation List Item */
+
 .nav-links li {
   display: inline;
   margin-right: 20px;
 }
 
-/* Navigation Link Styles */
+
 .nav-links a {
   text-decoration: none;
   color: rgb(44, 118, 62);
@@ -33,7 +31,7 @@
   color: #555;
 }
 
-/* Media Query for Smaller Screens */
+
 @media (max-width: 768px) {
   .nav-links {
     display: flex;

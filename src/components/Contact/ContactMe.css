@@ -1,13 +1,12 @@
-/* styles.css (or a separate CSS file for the contact page) */
 
-/* Contact Section Container */
+
 .contact {
   background-color: #f4f4f4;
   padding: 60px 0;
   text-align: center;
 }
 
-/* Contact Content Container */
+
 .container {
   display: flex;
   flex-direction: column;
@@ -15,26 +14,26 @@
   justify-content: center;
 }
 
-/* Contact Title */
+
 .contact h2 {
   font-size: 28px;
   margin: 0;
 }
 
-/* Contact Description */
+
 .contact p {
   font-size: 18px;
   margin: 20px 0;
 }
 
-/* Contact Form */
+
 .contact-form {
   max-width: 400px;
   margin: 0 auto;
   text-align: left;
 }
 
-/* Form Group (Name, Email, Message) */
+
 .form-group {
   margin-bottom: 20px;
 }
@@ -57,7 +56,7 @@
   resize: vertical;
 }
 
-/* Submit Button */
+
 .submit-button {
   background-color: #333;
   color: white;
@@ -73,7 +72,7 @@
   background-color: #555;
 }
 
-/* Contact Social Media Section */
+
 .contact-social {
   margin-top: 40px;
 }

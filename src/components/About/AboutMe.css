@@ -1,13 +1,11 @@
-/* about-me.css (or you can include these styles in your existing styles.css) */
 
-/* About Me Section Container */
 .about-me {
   background-color: #f4f4f4;
   padding: 60px 0;
   text-align: center;
 }
 
-/* Container for Content and Image */
+
 .container {
   display: flex;
   flex-direction: column;
@@ -15,13 +13,13 @@
   justify-content: center;
 }
 
-/* About Me Title */
+
 .about-me h2 {
   font-size: 28px;
   margin: 0;
 }
 
-/* About Me Content */
+
 .about-me p {
   font-size: 18px;
   margin: 20px 0;
@@ -29,7 +27,7 @@
   text-align: left;
 }
 
-/* About Me Image */
+
 .about-me-image img {
   max-width: 100%;
   border-radius: 50%;
@@ -37,7 +35,6 @@
   margin-top: 20px;
 }
 
-/* Media Query for Smaller Screens */
 @media (max-width: 768px) {
   .about-me-image img {
     max-width: 80%;
