@@ -7,19 +7,19 @@ const Portfolio = () => {
       title: 'Project 1: KKIJ Travels',
       description: 'Description of Project 1.',
       imageUrl: '/project1.jpg',
-      link: '#',
+      link: 'https://github.com/ivyreed/KKIJ-Travels',
     },
     {
       title: 'Project 2: Challenge Fitness',
       description: 'Description of Project 2.',
       imageUrl: '/project2.jpg',
-      link: '#',
+      link: 'https://challenge-fitness-9cf387429034.herokuapp.com/login',
     },
     {
       title: 'Project 3: BUGbytes',
       description: 'Description of Project 3.',
       imageUrl: '/project3.jpg',
-      link: '#',
+      link: 'https://bugbytes-eea33095845f.herokuapp.com/',
     },
   ];
 
