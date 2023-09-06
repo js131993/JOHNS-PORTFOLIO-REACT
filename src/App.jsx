@@ -8,31 +8,32 @@ import Portfolio from './components/Portfolio/Portfolio.jsx';
 import Resume from './components/Resume/Resume.jsx';
 
 function App() {
-  return (
-    <Router>
-      <div className="App">
-        <Header />
-        <Routes>
-          <Route path="/about">
-            <About />
-          </Route>
-          <Route path="/contact">
-            <Contact />
-          </Route>
-          <Route path="/portfolio">
-            <Portfolio />
-          </Route>
-          <Route path="/resume">
-            <Resume />
-          </Route>
-          <Route path="/">
-            <About />
-          </Route>
-        </Routes>
+  return ( 
+    <div className='App'></div>
+    // <Router>
+    //   <div className="App">
+    //     <Header />
+    //     <Routes>
+    //       <Route path="/about">
+    //         <About />
+    //       </Route>
+    //       <Route path="/contact">
+    //         <Contact />
+    //       </Route>
+    //       <Route path="/portfolio">
+    //         <Portfolio />
+    //       </Route>
+    //       <Route path="/resume">
+    //         <Resume />
+    //       </Route>
+    //       <Route path="/">
+    //         <About />
+    //       </Route>
+    //     </Routes>
 
-        <Footer />
-      </div>
-    </Router>
+    //     <Footer />
+    //   </div>
+    // </Router>
   );
 }
 
