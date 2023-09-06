@@ -2,7 +2,7 @@
 
 /* Portfolio Section Container */
 .portfolio {
-  background-color: #f4f4f4;
+  background-color: #2a2a2a; /* Dark gray background */
   padding: 60px 0;
   text-align: center;
 }
@@ -19,6 +19,7 @@
 .portfolio h2 {
   font-size: 28px;
   margin: 0;
+  color: #ff5722; /* Orange text color */
 }
 
 /* Portfolio List (Grid of Projects) */
@@ -31,7 +32,7 @@
 
 /* Portfolio Item */
 .portfolio-item {
-  background-color: white;
+  background-color: #ffffff; /* White background */
   padding: 20px;
   border-radius: 5px;
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
@@ -49,18 +50,20 @@
 .portfolio-item h3 {
   font-size: 20px;
   margin: 10px 0;
+  color: #2196f3; /* Blue text color */
 }
 
 /* Portfolio Item Description */
 .portfolio-item p {
   font-size: 16px;
   margin: 10px 0;
+  color: #333; /* Dark gray text color */
 }
 
 /* Portfolio Item Link */
 .portfolio-item a {
   display: inline-block;
-  background-color: #333;
+  background-color: #ff5722; /* Orange background color */
   color: white;
   text-decoration: none;
   padding: 10px 20px;
@@ -71,7 +74,8 @@
 }
 
 .portfolio-item a:hover {
-  background-color: #555;
+  background-color: #ff5722; /* Hover color matches background */
+  color: white;
 }
 
 /* Media Query for Smaller Screens */

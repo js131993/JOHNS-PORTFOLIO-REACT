@@ -1,3 +1,9 @@
+
+import 'bootstrap/dist/css/bootstrap.min.css';
+import './index.css';
+import { createBrowserRouter, RouterProvider } from 'react-router-dom';
+import { createRoot } from 'react-dom/client';
+
 import App from './App.jsx';
 import About from './components/About/AboutMe.jsx';
 import Contact from './components/Contact/ContactMe.jsx';

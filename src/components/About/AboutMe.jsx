@@ -8,13 +8,12 @@ const AboutMe = () => {
         <div className="about-me-content">
           <h2>About Me</h2>
           <p>
-            Hi, I'm [Your Name], a passionate and creative [Your Profession] based in [Your Location].
-            I love building innovative web applications and solving real-world problems through code.
-            With [Number of Years] years of experience in the field, I have gained expertise in [Your Skills].
+            Hello, my name is JOHN SANDERS, and I am a junior developer.  I am currently looking for a job to work on the server side of coding.  I think coding is extremely interesting and fun. It is also something to look forward to each day.  
+            I love to build applications to model real world problems and help solve issues along the way.
+            I have only been studying for about 6 months. But, I know I can make an impact with my knowledge and background.
           </p>
           <p>
-            My journey in web development started [When and How You Started].
-            Since then, I have been on a quest to learn and grow, constantly pushing the boundaries of what's possible.
+            My journey with coding started with my Full Stack Web Devleopment course from UNC-Chapel Hill.  I worked with people of all backgrounds in creating new web designs
             I am dedicated to crafting clean, efficient, and beautiful code that brings ideas to life.
           </p>
           <p>
