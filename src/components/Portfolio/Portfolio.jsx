@@ -1,4 +1,5 @@
 import React from 'react';
+import './Portfolio.css'
 
 const Portfolio = () => {
   // You can replace this with actual portfolio data
