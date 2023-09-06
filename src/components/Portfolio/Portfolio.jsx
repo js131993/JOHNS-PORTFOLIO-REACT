@@ -16,7 +16,7 @@ const Portfolio = () => {
       link: '#',
     },
     {
-      title: 'Project 3: ',
+      title: 'Project 3: BUGbytes',
       description: 'Description of Project 3.',
       imageUrl: '/project3.jpg',
       link: '#',

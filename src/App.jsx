@@ -1,21 +1,18 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
-import './App.css'; // Import your main CSS file
-import Header from './components/Header';
-import About from './components/About';
-import Contact from './components/Contact';
-import Footer from './components/Footer';
-import Portfolio from './components/Portfolio';
-import Resume from './components/Resume';
-import Testimonial from './components/Testimonial';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import Header from './components/Header/Header.jsx';
+import About from './components/About/AboutMe.jsx';
+import Contact from './components/Contact/ContactMe.jsx';
+import Footer from './components/Footer/Foot.jsx';
+import Portfolio from './components/Portfolio/Portfolio.jsx';
+import Resume from './components/Resume/Resume.jsx';
 
 function App() {
   return (
     <Router>
       <div className="App">
         <Header />
-
-        <Switch>
+        <Routes>
           <Route path="/about">
             <About />
           </Route>
@@ -28,13 +25,10 @@ function App() {
           <Route path="/resume">
             <Resume />
           </Route>
-          <Route path="/testimonial">
-            <Testimonial />
-          </Route>
           <Route path="/">
             <About />
           </Route>
-        </Switch>
+        </Routes>
 
         <Footer />
       </div>
