@@ -1,7 +1,7 @@
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './index.css';
-import { createBrowserRouter, RouterProvider } from 'react-router-dom';
+import { createHashRouter, RouterProvider } from 'react-router-dom';
 import { createRoot } from 'react-dom/client';
 
 import App from './App.jsx';
@@ -10,7 +10,7 @@ import Contact from './components/Contact/ContactMe.jsx';
 import Resume from './components/Resume/Resume.jsx';
 import Portfolio from './components/Portfolio/Portfolio.jsx';
 
-const router = createBrowserRouter([
+const router = createHashRouter([
   {
     basename: "/JOHNS-PORTFOLIO-REACT",
     path: '/',
