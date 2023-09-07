@@ -12,6 +12,7 @@ import Portfolio from './components/Portfolio/Portfolio.jsx';
 
 const router = createBrowserRouter([
   {
+    basename: "/JOHNS-PORTFOLIO-REACT",
     path: '/',
     element: <App />,
     children: [
