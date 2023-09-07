@@ -36,7 +36,6 @@ const router = createBrowserRouter([
   },
 ]);
 
-// Render the RouterProvider component
 createRoot(document.getElementById('root')).render(
   <RouterProvider router={router} />
 );
